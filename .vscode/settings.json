@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "out": false, // set this to true to hide the "out" folder with the compiled JS files
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        "node_modules": true
+    },
+    "search.exclude": {
+        "out": true // set this to false to include "out" folder in search results
+    },
+    "tslint.enable": false,
+    "python.linting.enabled": true,
+    "python.formatting.formatOnSave": false,
+    "python.unitTest.promptToConfigure": false,
+    "python.workspaceSymbols.enabled": false,
+    "python.pythonPath": "/usr/local/bin/python3.6",
+    "python.formatting.provider": "yapf",
+    "python.autoComplete.extraPaths": [
+        "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow",
+        "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib"
+    ]
+}
